@@ -1,0 +1,3 @@
+document.querySelector("button").addEventListener("click", function () {
+    alert("¡Bienvenido a ReConecta! Muy pronto crearás tu perfil 🦊💚");
+});
