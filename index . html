@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ReConecta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReConecta</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>🦊 ¡Bienvenido a ReConecta!</h1>
+<header>
+    <img src="logo.png" alt="Logo ReConecta" width="120">
 
-<h2>Tu guía que te acompaña en cada paso.</h2>
+    <h1>¡Bienvenido a ReConecta!</h1>
 
-<p>
-El sedentarismo digital puede afectar tu salud, tu descanso y tu bienestar.
-Pero no te preocupes, ¡mi misión es ayudarte a crear hábitos saludables de una forma divertida!
-</p>
+    <h2>Desconéctate de las pantallas, reconecta con tu bienestar.</h2>
+</header>
 
-<button>Siguiente</button>
+<main>
 
-<hr>
-
-<p><strong>Creado por:</strong></p>
+<img src="zorrito.png" alt="Zorrito" width="250">
 
 <p>
-Mendoza Génesis • Barbosa Angelina • Ore Xiomara • Barrionuevo Diego • Dimas Gavino • Quispe Neymar
+
+El sedentarismo digital puede afectar tu salud física y mental.
+
+Pero no te preocupes...
+
+🦊 ¡Estoy aquí para ayudarte a crear hábitos saludables de una forma divertida!
+
+</p>
+
+<button>
+Comenzar
+</button>
+
+</main>
+
+<footer>
+
+<h3>Equipo desarrollador</h3>
+
+<p>
+Mendoza Génesis • Barbosa Angelina • Ore Xiomara • Barrionuevo Diego • Dimas Gabino • Quispe Neymar
 </p>
 
 <p>
-Creamos esta plataforma para ayudarte a reducir el sedentarismo digital y promover hábitos saludables.
+Proyecto desarrollado para promover hábitos saludables y reducir el sedentarismo digital en adolescentes.
 </p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
