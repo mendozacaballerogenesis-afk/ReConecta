@@ -8,56 +8,43 @@
 body{
     background:linear-gradient(135deg,#ffe4f2,#e3f6ff,#fff7d6);
     min-height:100vh;
-}
-
-header{
-    text-align:center;
-    padding:60px 20px;
-}
-
-h1{
-    color:#ff4f8b;
-    font-size:60px;
-    margin-bottom:20px;
-}
-
-h2{
-    color:#555;
-    font-size:24px;
-    font-weight:normal;
-    margin-bottom:35px;
-}
-
-button{
-    background:#ff6fa8;
-    color:white;
-    border:none;
-    padding:15px 35px;
-    border-radius:30px;
-    font-size:18px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-button:hover{
-    background:#ff4f8b;
-    transform:scale(1.05);
-}
-.contenedor{
-    max-width:500px;
-    margin:40px auto;
-    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     padding:30px;
-    border-radius:20px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.contenedor{
+    background:white;
+    width:90%;
+    max-width:500px;
+    padding:30px;
+    border-radius:25px;
     text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
 .zorrito{
-    width:180px;
-    height:auto;
+    width:220px;
     display:block;
     margin:0 auto 20px;
+}
+
+h1{
+    color:#ff5b99;
+    margin-bottom:15px;
+}
+
+p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    text-align:left;
+    font-weight:bold;
+    margin-bottom:5px;
 }
 
 input,
@@ -65,17 +52,29 @@ select,
 textarea{
     width:100%;
     padding:12px;
-    margin:8px 0 20px;
-    border:1px solid #ddd;
-    border-radius:10px;
+    border:2px solid #ffd6e7;
+    border-radius:12px;
+    margin-bottom:15px;
     font-size:16px;
 }
 
 textarea{
-    resize:none;
     height:100px;
+    resize:none;
 }
 
 button{
     width:100%;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    background:#ff6fa8;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#ff4f8b;
 }
