@@ -6,107 +6,61 @@
 }
 
 body{
-    background:linear-gradient(135deg,#ffe4f2,#e3f6ff,#fff7d6);
+    background:linear-gradient(135deg,#FFE7F3,#E8F7FF,#FFF7D6);
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:30px;
 }
 
-.contenedor{
-    background:white;
+.inicio{
+    background:#ffffff;
     width:90%;
-    max-width:500px;
-    padding:30px;
+    max-width:420px;
+    padding:40px 30px;
     border-radius:25px;
     text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-}
-.zorrito{
-    width:220px;
-    display:block;
-    margin:40px auto 20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
+.logo{
+    width:100px;
+    height:100px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:#FFD6E8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:45px;
+}
 
 h1{
-    color:#ff5b99;
+    color:#FF5C9A;
+    font-size:42px;
     margin-bottom:15px;
 }
 
 p{
     color:#666;
-    margin-bottom:20px;
-}
-
-label{
-    display:block;
-    text-align:left;
-    font-weight:bold;
-    margin-bottom:5px;
-}
-
-input,
-select,
-textarea{
-    width:100%;
-    padding:12px;
-    border:2px solid #ffd6e7;
-    border-radius:12px;
-    margin-bottom:15px;
-    font-size:16px;
-}
-
-textarea{
-    height:100px;
-    resize:none;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:30px;
 }
 
 button{
     width:100%;
     padding:15px;
-    border:none;
-    border-radius:15px;
-    background:#ff6fa8;
+    background:#FF6FA8;
     color:white;
+    border:none;
+    border-radius:30px;
     font-size:18px;
     cursor:pointer;
-    transition:.3s;
+    transition:0.3s;
 }
 
 button:hover{
-    background:#ff4f8b;
-}
-header{
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:30px;
-}
-
-.logo{
-    width:260px;
-    margin-bottom:25px;
-}
-
-header h1{
-    font-size:55px;
-    color:#ff5b99;
-    margin-bottom:15px;
-}
-
-header h2{
-    max-width:500px;
-    color:#666;
-    font-size:22px;
-    margin-bottom:35px;
-    font-weight:normal;
-}
-
-header button{
-    width:220px;
+    background:#FF4F8B;
+    transform:scale(1.03);
 }
