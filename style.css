@@ -23,12 +23,12 @@ body{
     text-align:center;
     box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
-
 .zorrito{
     width:220px;
     display:block;
-    margin:0 auto 20px;
+    margin:40px auto 20px;
 }
+
 
 h1{
     color:#ff5b99;
