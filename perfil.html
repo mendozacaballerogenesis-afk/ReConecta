@@ -3,51 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil - ReConecta</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
 
-<header>
+<div class="contenedor">
+
+    <img src="zorrito.png" alt="Zorrito" class="zorrito">
+
     <h1>👤 Mi Perfil</h1>
+
     <p>¡Hola! Cuéntame un poco sobre ti.</p>
-</header>
 
-<main>
+    <label>Nombre:</label><br>
+    <input type="text" placeholder="Escribe tu nombre"><br><br>
 
-<label>Nombre:</label><br>
-<input type="text" placeholder="Escribe tu nombre"><br><br>
+    <label>Edad:</label><br>
+    <input type="number" placeholder="Tu edad"><br><br>
 
-<label>Edad:</label><br>
-<input type="number" placeholder="Tu edad"><br><br>
+    <label>Sexo:</label><br>
+    <select>
+        <option>Selecciona una opción</option>
+        <option>Femenino</option>
+        <option>Masculino</option>
+        <option>Prefiero no decirlo</option>
+    </select><br><br>
 
-<label>Sexo:</label><br>
+    <label>¿Cómo quieres llamar a tu zorrito?</label><br>
+    <input type="text" placeholder="Nombre del zorrito"><br><br>
 
-<select>
-<option>Selecciona una opción</option>
-<option>Femenino</option>
-<option>Masculino</option>
-<option>Prefiero no decirlo</option>
-</select>
+    <label>¿Por qué deseas mejorar tus hábitos?</label><br>
+    <textarea placeholder="Escribe aquí..."></textarea><br><br>
 
-<br><br>
+    <button>Continuar</button>
 
-<label>¿Cómo quieres llamar a tu zorrito?</label><br>
-
-<input type="text" placeholder="Nombre del zorrito">
-
-<br><br>
-
-<label>¿Por qué deseas mejorar tus hábitos?</label><br>
-
-<textarea rows="4" placeholder="Escribe aquí..."></textarea>
-
-<br><br>
-
-<button>Continuar</button>
-
-</main>
+</div>
 
 </body>
 </html>
