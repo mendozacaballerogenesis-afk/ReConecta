@@ -78,3 +78,35 @@ button{
 button:hover{
     background:#ff4f8b;
 }
+header{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.logo{
+    width:260px;
+    margin-bottom:25px;
+}
+
+header h1{
+    font-size:55px;
+    color:#ff5b99;
+    margin-bottom:15px;
+}
+
+header h2{
+    max-width:500px;
+    color:#666;
+    font-size:22px;
+    margin-bottom:35px;
+    font-weight:normal;
+}
+
+header button{
+    width:220px;
+}
