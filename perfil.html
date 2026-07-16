@@ -1,32 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Perfil | ReConecta</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
 <div class="perfil">
 
-    <div class="zorrito-perfil">
-        🦊
-    </div>
+<div class="logo">
+🦊
+</div>
 
-    <h1>Mi Perfil</h1>
+<h1>Mi Perfil</h1>
 
-    <p class="bienvenida">
-        ¡Hola! Soy tu compañero de hábitos saludables 💖
-    </p>
+<p class="descripcion">
+Completa tus datos para comenzar tu aventura junto a tu zorrito.
+</p>
 
-    <div class="datos">
-        <p>🌸 Nombre: Usuario</p>
-        <p>🪙 Connect Coins: 0</p>
-        <p>🌱 Nivel: Zorrito bebé</p>
-    </div>
+<input type="text" id="nombre" placeholder="👤 Escribe tu nombre">
 
-    <h2>Mis hábitos</h2>
+<input type="number" id="edad" placeholder="🎂 Edad">
 
-    <div class="habitos">
-        <div>💧 Tomar agua</div>
-        <div>🚶 Realizar movimiento</div>
-        <div>😴 Dormir bien</div>
-        <div>📱 Reducir tiempo de pantalla</div>
-    </div>
+<select id="sexo">
+<option value="">⚧ Selecciona tu sexo</option>
+<option>Femenino</option>
+<option>Masculino</option>
+<option>Prefiero no decirlo</option>
+</select>
 
-    <button class="boton-perfil">
-        Continuar
-    </button>
+<input type="text" id="zorrito" placeholder="🦊 Nombre de tu zorrito">
+
+<button id="guardar">
+Guardar y continuar
+</button>
 
 </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
