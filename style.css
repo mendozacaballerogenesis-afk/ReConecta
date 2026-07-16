@@ -1,129 +1,162 @@
-body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #ffd6e7, #e8dcff, #d9f4ff);
-    font-family: "Poppins", sans-serif;
-}
-.container {
-    width: 90%;
-    max-width: 400px;
-    background: white;
-    padding: 45px 30px;
-    border-radius: 35px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(255, 150, 190, 0.25);
+/* ===========================
+   RECONECTA
+   =========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
 }
 
-h1 {
-    color: #e46aa5;
-    font-size: 65px;
-    margin: 35px 0 25px 0;
-    font-weight: 800;
-    text-align: center;
-    width: 100%;
-}
-p {
-    color: #777;
-    font-size: 17px;
-    line-height: 1.6;
-    margin-bottom: 35px;
+body{
+    background:linear-gradient(135deg,#ffd6e7,#f1e3ff,#dff6ff);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
 }
 
-button {
-    background: #a8df8e;
-    color: white;
-    border: none;
-    padding: 15px 55px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
+.container,
+.perfil,
+.zorrito,
+.habitos,
+.tienda,
+.progreso,
+.creditos{
+    width:100%;
+    max-width:450px;
+    background:#ffffff;
+    border-radius:35px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
 }
 
-.corazon {
-    color: #ff8fc7;
-    font-size: 38px;
-    margin-top: 25px;
-}
-@media (max-width: 600px) {
-    button {
-        font-size: 30px;
-        padding: 28px 110px;
-        border-radius: 50px;
-    }
-}
+/* LOGO */
 
-    h1 {
-        font-size: 50px;
-    }
-
-    p {
-        font-size: 20px;
-        line-height: 1.6;
-    }
-button {
-    background: #a8df8e;
-    color: white;
-    border: none;
-    padding: 25px 100px;
-    border-radius: 45px;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0 8px 20px rgba(120, 190, 100, 0.3);
-}
-button {
-    width: 90%;
-    height: 80px;
-    font-size: 30px !important;
-    background: #a8df8e !important;
-    border-radius: 50px;
+.logo{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:#ffd2e6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:60px;
+    margin-bottom:20px;
 }
 
-.container {
-    width: 90%;
-    max-width: 400px;
-    background: white;
-    padding: 70px 30px;
-    border-radius: 35px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(255, 150, 190, 0.25);
+/* TITULOS */
+
+h1{
+    color:#ff5fa2;
+    font-size:55px;
+    margin-bottom:10px;
 }
-@media (max-width: 600px) {
 
-    .perfil {
-        width: 95%;
-        padding: 60px 30px;
-        border-radius: 40px;
-    }
+h2{
+    color:#9c6ade;
+    font-size:30px;
+    margin-bottom:20px;
+}
 
-    .zorrito-perfil {
-        font-size: 120px;
-    }
+h3{
+    color:#666;
+    margin-top:35px;
+    margin-bottom:10px;
+}
 
-    .perfil h1 {
-        font-size: 55px;
-    }
+/* TEXTO */
 
-    .bienvenida {
-        font-size: 22px;
-    }
+.descripcion{
+    color:#555;
+    line-height:1.8;
+    font-size:18px;
+    margin-bottom:30px;
+}
 
-    .datos p {
-        font-size: 20px;
-    }
+/* BOTON */
 
-    .habitos div {
-        font-size: 20px;
-        padding: 20px;
-    }
+button{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:40px;
+    background:#8ddf84;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
 
-    .boton-perfil {
-        width: 90%;
-        padding: 25px;
-        font-size: 28px;
-    }
+button:hover{
+    background:#6dcf61;
+    transform:scale(1.03);
+}
+
+/* CREDITOS */
+
+.creditos{
+    margin-top:35px;
+    font-size:15px;
+    color:#666;
+    line-height:1.8;
+}
+
+.colegio{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+.eureka{
+    color:#ff5fa2;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:600px){
+
+body{
+padding:15px;
+}
+
+.container,
+.perfil,
+.zorrito,
+.habitos,
+.tienda,
+.progreso,
+.creditos{
+padding:25px;
+}
+
+.logo{
+width:100px;
+height:100px;
+font-size:50px;
+}
+
+h1{
+font-size:46px;
+}
+
+h2{
+font-size:25px;
+}
+
+.descripcion{
+font-size:17px;
+}
+
+button{
+font-size:22px;
+padding:20px;
+}
+
 }
