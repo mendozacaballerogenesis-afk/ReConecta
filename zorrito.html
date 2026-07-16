@@ -20,6 +20,8 @@
 
 <h2 id="saludo"></h2>
 
+<h3 id="nombreZorrito">
+
 <div class="logo" id="evolucion">
 🦊
 </div>
@@ -77,19 +79,18 @@ Continuar
 
 <script>
 
-const nombre=localStorage.getItem("nombre");
-const zorrito=localStorage.getItem("zorrito");
+const nombre = localStorage.getItem("nombre");
+const zorrito = localStorage.getItem("zorrito");
 
 if(nombre && zorrito){
 
-document.getElementById("saludo").innerHTML=
-"¡Hola "+nombre+"! Soy "+zorrito+" 🦊";
+document.getElementById("saludo").innerHTML =
+"¡Hola " + nombre + "! Soy " + zorrito + " 🦊 y te acompañaré en ReConecta para ayudarte a crear hábitos saludables.";
 
 }
 
 </script>
-
-
+    
 <!-- CÓDIGO DE COMIDA Y AGUA -->
 <script>
 
