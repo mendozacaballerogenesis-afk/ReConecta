@@ -62,16 +62,16 @@ button {
         font-size: 20px;
         line-height: 1.6;
     }
-
-    button {
-        font-size: 22px;
-        padding: 18px 70px;
-        border-radius: 35px;
-    }
-
-    .corazon {
-        font-size: 45px;
-    }
+button {
+    background: #a8df8e;
+    color: white;
+    border: none;
+    padding: 25px 100px;
+    border-radius: 45px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(120, 190, 100, 0.3);
 }
 
 
