@@ -18,10 +18,11 @@ body {
 
 h1 {
     color: #e46aa5;
-    font-size: 60px;
-    margin-bottom: 25px;
+    font-size: 65px;
+    margin: 35px 0 25px 0;
     font-weight: 800;
-    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
 }
 p {
     color: #777;
@@ -83,8 +84,13 @@ button {
 }
 
 .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 70px 30px;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(255, 150, 190, 0.25);
 }
 
 .zorrito {
