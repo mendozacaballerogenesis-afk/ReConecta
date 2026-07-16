@@ -18,11 +18,11 @@ body {
 
 h1 {
     color: #e46aa5;
-    font-size: 45px;
-    margin-bottom: 20px;
-    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
-
 p {
     color: #777;
     font-size: 17px;
