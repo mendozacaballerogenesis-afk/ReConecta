@@ -74,5 +74,12 @@ button {
     cursor: pointer;
     box-shadow: 0 8px 20px rgba(120, 190, 100, 0.3);
 }
+button {
+    width: 90%;
+    height: 80px;
+    font-size: 30px !important;
+    background: #a8df8e !important;
+    border-radius: 50px;
+}
 
 
