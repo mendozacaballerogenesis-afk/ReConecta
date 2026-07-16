@@ -74,3 +74,6 @@ button:hover {
     font-size: 30px;
     margin-top: 20px;
 }
+body {
+    background: pink;
+}
