@@ -20,10 +20,10 @@
 
 <h2 id="saludo"></h2>
 
-<div class="logo">
+<div class="logo" id="evolucion">
 🦊
 </div>
-
+    
 <p id="mensaje">
 ¡Estoy muy feliz de conocerte!
 </p>
@@ -108,7 +108,7 @@ function alimentar(comida){
 
     document.getElementById("mensaje").innerHTML =
     "¡Gracias por darme " + comida + "! 🦊💖";
-
+actualizarZorrito();
 }
 
 
@@ -124,9 +124,31 @@ function beberAgua(){
 
     document.getElementById("mensaje").innerHTML =
     "¡Estoy hidratado! 💧🦊";
+  actualizarZorrito();  
 
 }
+function actualizarZorrito(){
 
+    let hambreActual = Number(document.getElementById("hambre").value);
+    let aguaActual = Number(document.getElementById("agua").value);
+
+    let zorrito = document.getElementById("evolucion");
+
+    if(hambreActual >= 90 && aguaActual >= 90){
+
+        zorrito.innerHTML = "🦊🌟";
+
+    }else if(hambreActual >= 70){
+
+        zorrito.innerHTML = "🦊💚";
+
+    }else{
+
+        zorrito.innerHTML = "🦊";
+
+    }
+
+}
 </script>
 
 
