@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Zorrito | ReConecta</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="zorrito">
+
+<h1>Mi Zorrito 🦊</h1>
+
+<h2 id="saludo"></h2>
+
+<div class="logo">
+🦊
+</div>
+
+<p id="mensaje">
+¡Estoy muy feliz de conocerte!
+</p>
+
+<h3>❤️ Felicidad</h3>
+<progress value="100" max="100"></progress>
+
+<h3>🍽️ Hambre</h3>
+<progress value="80" max="100"></progress>
+
+<h3>💧 Hidratación</h3>
+<progress value="90" max="100"></progress>
+
+<br><br>
+
+<button onclick="location.href='habitos.html'">
+Continuar
+</button>
+
+</div>
+
+<script>
+
+const nombre=localStorage.getItem("nombre");
+const zorrito=localStorage.getItem("zorrito");
+
+if(nombre && zorrito){
+
+document.getElementById("saludo").innerHTML=
+"¡Hola "+nombre+"! Soy "+zorrito+" 🦊";
+
+}
+
+</script>
+
+</body>
+
+</html>
