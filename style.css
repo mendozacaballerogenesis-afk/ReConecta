@@ -92,29 +92,38 @@ button {
     text-align: center;
     box-shadow: 0 10px 30px rgba(255, 150, 190, 0.25);
 }
-
-.zorrito {
-    font-size: 55px;
-    margin-bottom: 20px;
-}
-
-.decoracion {
-    font-size: 35px;
-    margin-top: 25px;
-}
-
 @media (max-width: 600px) {
 
-    h1 {
+    .perfil {
+        width: 95%;
+        padding: 60px 30px;
+        border-radius: 40px;
+    }
+
+    .zorrito-perfil {
+        font-size: 120px;
+    }
+
+    .perfil h1 {
         font-size: 55px;
     }
 
-    .zorrito {
-        font-size: 65px;
+    .bienvenida {
+        font-size: 22px;
     }
 
-    .decoracion {
-        font-size: 40px;
+    .datos p {
+        font-size: 20px;
+    }
+
+    .habitos div {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .boton-perfil {
+        width: 90%;
+        padding: 25px;
+        font-size: 28px;
     }
 }
-
