@@ -46,3 +46,32 @@ button {
     font-size: 38px;
     margin-top: 25px;
 }
+@media (max-width: 600px) {
+
+    .container {
+        width: 92%;
+        padding: 50px 25px;
+        border-radius: 35px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    button {
+        font-size: 22px;
+        padding: 18px 70px;
+        border-radius: 35px;
+    }
+
+    .corazon {
+        font-size: 45px;
+    }
+}
+
+
