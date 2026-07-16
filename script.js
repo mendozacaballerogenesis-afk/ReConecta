@@ -54,3 +54,24 @@ if (boton) {
     });
 
 }
+// ===============================
+// RECONECTA
+// RETOS Y CONNECT COINS 🪙
+// ===============================
+
+function completarReto(nombreReto){
+
+    let monedas = Number(localStorage.getItem("coins")) || 0;
+
+    monedas += 20;
+
+    localStorage.setItem("coins", monedas);
+
+    alert("¡Reto cumplido! 🎉\nGanaste 20 Connect Coins 🪙");
+
+    const texto = document.getElementById("monedas");
+
+    if(texto){
+        texto.innerHTML = "🪙 Connect Coins: " + monedas;
+    }
+}
