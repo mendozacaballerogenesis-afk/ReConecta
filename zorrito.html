@@ -32,11 +32,25 @@
 <progress value="100" max="100"></progress>
 
 <h3>🍽️ Hambre</h3>
-<progress value="80" max="100"></progress>
+<progress id="hambre" value="80" max="100"></progress>
+
+<div class="comidas">
+
+<button onclick="alimentar('🍎 Manzana')">🍎 Manzana</button>
+
+<button onclick="alimentar('🍓 Fresa')">🍓 Fresa</button>
+
+<button onclick="alimentar('🐟 Pescado')">🐟 Pescado</button>
+
+<button onclick="alimentar('🥦 Brócoli')">🥦 Brócoli</button>
+
+</div>
+
 
 <h3>💧 Hidratación</h3>
-<progress value="90" max="100"></progress>
+<progress id="agua" value="90" max="100"></progress>
 
+<button onclick="beberAgua()">💧 Dar agua</button>
 <br><br>
 
 <button onclick="location.href='habitos.html'">
@@ -54,11 +68,67 @@ if(nombre && zorrito){
 
 document.getElementById("saludo").innerHTML=
 "¡Hola "+nombre+"! Soy "+zorrito+" 🦊";
+<button onclick="location.href='habitos.html'">
+Continuar
+</button>
+
+</div>
+
+
+<script>
+
+const nombre=localStorage.getItem("nombre");
+const zorrito=localStorage.getItem("zorrito");
+
+if(nombre && zorrito){
+
+document.getElementById("saludo").innerHTML=
+"¡Hola "+nombre+"! Soy "+zorrito+" 🦊";
 
 }
 
 </script>
 
-</body>
 
+<!-- CÓDIGO DE COMIDA Y AGUA -->
+<script>
+
+let hambre = 80;
+let agua = 90;
+
+function alimentar(comida){
+
+    hambre += 5;
+
+    if(hambre > 100){
+        hambre = 100;
+    }
+
+    document.getElementById("hambre").value = hambre;
+
+    document.getElementById("mensaje").innerHTML =
+    "¡Gracias por darme " + comida + "! 🦊💖";
+
+}
+
+
+function beberAgua(){
+
+    agua += 5;
+
+    if(agua > 100){
+        agua = 100;
+    }
+
+    document.getElementById("agua").value = agua;
+
+    document.getElementById("mensaje").innerHTML =
+    "¡Estoy hidratado! 💧🦊";
+
+}
+
+</script>
+
+
+</body>
 </html>
